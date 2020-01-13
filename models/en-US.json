@@ -1,0 +1,171 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "code mash",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CodeEntryIntent",
+                    "slots": [
+                        {
+                            "name": "code",
+                            "type": "Codes"
+                        }
+                    ],
+                    "samples": [
+                        "{code}",
+                        "i found {code}",
+                        "the word is {code}",
+                        "the password is {code}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "Codes",
+                    "values": [
+                        {
+                            "id": "Twenty",
+                            "name": {
+                                "value": "skywalker"
+                            }
+                        },
+                        {
+                            "id": "Nineteen",
+                            "name": {
+                                "value": "chaos"
+                            }
+                        },
+                        {
+                            "id": "Eighteen",
+                            "name": {
+                                "value": "music"
+                            }
+                        },
+                        {
+                            "id": "Seventeen",
+                            "name": {
+                                "value": "thanos"
+                            }
+                        },
+                        {
+                            "id": "Sixteen",
+                            "name": {
+                                "value": "javascript"
+                            }
+                        },
+                        {
+                            "id": "Fifteen",
+                            "name": {
+                                "value": "server"
+                            }
+                        },
+                        {
+                            "id": "Fourteen",
+                            "name": {
+                                "value": "matrix"
+                            }
+                        },
+                        {
+                            "id": "Thirteen",
+                            "name": {
+                                "value": "mars"
+                            }
+                        },
+                        {
+                            "id": "Twelve",
+                            "name": {
+                                "value": "blueprint"
+                            }
+                        },
+                        {
+                            "id": "Eleven",
+                            "name": {
+                                "value": "voice"
+                            }
+                        },
+                        {
+                            "id": "Ten",
+                            "name": {
+                                "value": "yeti"
+                            }
+                        },
+                        {
+                            "id": "Nine",
+                            "name": {
+                                "value": "platform"
+                            }
+                        },
+                        {
+                            "id": "Eight",
+                            "name": {
+                                "value": "prime"
+                            }
+                        },
+                        {
+                            "id": "Seven",
+                            "name": {
+                                "value": "iron man"
+                            }
+                        },
+                        {
+                            "id": "Six",
+                            "name": {
+                                "value": "ivory coast"
+                            }
+                        },
+                        {
+                            "id": "Five",
+                            "name": {
+                                "value": "nasa"
+                            }
+                        },
+                        {
+                            "id": "Four",
+                            "name": {
+                                "value": "grace hopper"
+                            }
+                        },
+                        {
+                            "id": "Three",
+                            "name": {
+                                "value": "amazon"
+                            }
+                        },
+                        {
+                            "id": "Two",
+                            "name": {
+                                "value": "baby yoda"
+                            }
+                        },
+                        {
+                            "id": "One",
+                            "name": {
+                                "value": "kalahari"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

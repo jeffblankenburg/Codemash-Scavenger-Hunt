@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Code Mash",
+          "summary": "This is a real-world scavenger hunt around the Kalahari Resort that takes place during the Codemash 2020 conference, starting on January 9th.",
+          "description": "This is a real-world scavenger hunt around the Kalahari Resort that takes place during the Codemash 2020 conference, starting on January 9th.  The starting location for this scavenger hunt is the large bronze gorilla at the entrance of the Kalahari Convention Center.  Find the clues, tell them to Alexa, and move to the next step!  The first ten participants to complete the hunt will win a prize, but everyone that finishes will win a cool sticker!",
+          "examplePhrases": [
+            "Alexa, start code mash",
+            "help",
+            "stop"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This is a scavenger hunt that participants will play in a giant convention center and waterpark.  It will take place over the two days of the event.  They will be finding small signs hidden throughout the event, which will tell them what the next codeword is.  Since you can't test this from the venue, here is the list of codes, in order.  If you use one out of order (which you should for testing purposes), it should tell you you're wrong, and redirect you to find the clue that is next.  In order, they are: 1. kalahari, 2. baby yoda, 3. dynamic 4. middle earth 5. windows 6. apple 7. amazon 8. prime 9. netflix 10. yeti 11. voice 12. ring 13. mars 14. matrix 15. server 16. homage 17. thanos 18. music 19. chaos 20. squishy.  You will need to do them in order to progress through the game, but you can try them in any order for testing.  When you say the last clue, you should be congratulated, and have a card written to the user's Alexa app with instructions on how to claim their prize.",
+      "category": "GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "code_mash"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
